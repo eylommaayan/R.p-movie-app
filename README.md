@@ -1,16 +1,20 @@
-# React + Vite
+# 🎬 React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+אפליקציית חיפוש סרטים מודרנית שנבנתה עם React ו-Tailwind CSS, המשתמשת ב-OMDb API כדי לשלוף נתוני סרטים בזמן אמת.
 
-Currently, two official plugins are available:
+## ✨ מאפיינים מרכזיים
+- **חיפוש חי (Live Search):** חיפוש סרטים מהיר עם מנגנון Debounce למניעת קריאות מיותרות לשרת.
+- **עיצוב מודרני ורספונסיבי:** ממשק משתמש נקי ומעוצב באמצעות Tailwind CSS v4, מותאם באופן מלא למכשירים ניידים ומחשבים.
+- **ניהול State:** שימוש ב-React Hooks (`useState`, `useEffect`) לניהול מצב האפליקציה וקריאות API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ טכנולוגיות
+- [React 19](https://react.dev/)
+- [Vite](https://vitejs.dev/) - כלי בנייה מהיר לפיתוח.
+- [Tailwind CSS v4](https://tailwindcss.com/) - מסגרת CSS מבוססת Utility לפיתוח עיצוב מהיר.
+- [OMDb API](https://www.omdbapi.com/) - מסד הנתונים לסרטים.
 
-## React Compiler
+## 🚀 התקנה והרצה מקומית
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. שכפול המאגר (Clone):
+   ```bash
+   git clone [https://github.com/eylommaayan/react-movie-app.git](https://github.com/eylommaayan/react-movie-app.git)
